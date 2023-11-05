@@ -1,0 +1,144 @@
+.left{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.right{
+    
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.leftSection{
+     font-size: 3rem;
+    width: 50%;
+    margin: 111px;
+}
+.rightSection{
+   
+    width :30%;
+     margin-right: 30px;
+}
+.image{
+    height: 90%;
+    width: 90%;
+    margin: 29px;
+    filter: drop-shadow(0 0 10px );
+    animation: glow 1s alternate infinite;
+}
+@keyframe glow{
+    0%{
+        filter: drop-shadow(0 0 10px
+          );
+    }
+100%{
+    filter: drop-shadow(0 0 25px );
+}
+}
+
+.name{
+    color: rgb(171, 101, 235);
+}
+.line{
+    margin: 45px;
+    margin-top: 3px;
+
+}
+.skills{
+    margin-left: 123px;
+    font-size: 3rem;
+    margin-top: -20px;
+}
+.known{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-size: 1.6rem;
+}
+.web{
+    margin-left: 43px;
+    font-size: 1.2rem;
+}
+.language{
+    font-size:1.2rem ;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+
+}
+.social{
+    height: 30px;
+    width: 30px;
+}
+.lang{
+    font-size: 1.2rem;
+}
+.c{
+    margin-left: 32px;
+}
+.j{
+    margin-left: 32px;
+}
+.line_1{
+    margin: 45px;
+    margin-top: 1rem;
+}
+.college{
+    margin-left: 123px;
+    margin-top: -29px;
+    font-size: 3rem;
+}
+.collegeExp{
+    margin-left: 115px;
+    margin-top: 25px;
+    font-size: 23px;
+}
+
+.button { box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    
+        height: 36px;
+        width: 292px;
+       background-color: aquamarine;
+       margin-top: 40px;
+    margin-left: 405px;
+    border-radius: 25%;
+}
+    
+    
+    .footer{
+        height: 50px;
+    }
+    .expvsrel{
+        text-decoration: none;
+        color:lightsalmon;
+        margin-left: 517px;
+        
+    }
+    .expvsrel:hover{
+        font-size: 2rem;
+      color: chartreuse;
+
+    }
+    .social{
+        height:50px;
+        width:50px;
+        display: flex;
+        justify-content:space-between;
+        margin-left: 555px;
+    }
+    
+    
+    .copyright{
+        margin-left: 438px;
+
+    }
+    
